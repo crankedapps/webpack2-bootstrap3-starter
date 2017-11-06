@@ -1,0 +1,35 @@
+Setup NPM Package:
+npm init
+
+Install Webpack as dependency:
+npm i -D webpack .
+
+Add HTML Webpack Plugin (helps compile HTML files):
+npm install --save-dev html-webpack-plugin
+
+Add CSS & Style Loader:
+npm install --save-dev css-loader style-loader
+
+Add SASS Loader:
+npm install --save-dev sass-loader
+
+Extract Text Plugin (compiles CSS into file instead of HEAD):
+npm install --save-dev extract-text-webpack-plugin
+
+Install File-Loader & Webpack-Loader (compiles & optimizes images):
+npm install --save-dev file-loader image-webpack-loader
+
+Run webpack:
+webpack ./src/app.js ./dist/app.bundle.js
+
+Run webpack & watch for changes, rerunning if made:
+webpack -d --watch
+
+Install webpack dev server:
+npm install --save-dev webpack-dev-server
+
+Install bootstrap loader:
+npm install --save-dev bootstrap-loader
+
+Imports loader (for jQuery):
+npm install --save-dev imports-loader
